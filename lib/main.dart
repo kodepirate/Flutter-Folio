@@ -129,30 +129,30 @@ class _MyHomepageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            GestureDetector(
-                onTap: () {
-                  htmlOpenResume();
-                },
-                child: Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                  decoration: const BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(30)),
-                      gradient: LinearGradient(colors: [
-                        Color(0xffA2834D),
-                        Color(0xffBC9A5F),
-                      ])),
-                  child: const Text(
-                    "Download My CV",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                    ),
-                  ),
-                )),
-            const SizedBox(
-              height: 40,
-            ),
+            // GestureDetector(
+            //     onTap: () {
+            //       htmlOpenResume();
+            //     },
+            //     child: Container(
+            //       padding:
+            //           const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+            //       decoration: const BoxDecoration(
+            //           borderRadius: BorderRadius.all(Radius.circular(30)),
+            //           gradient: LinearGradient(colors: [
+            //             Color(0xffA2834D),
+            //             Color(0xffBC9A5F),
+            //           ])),
+            //       child: const Text(
+            //         "Download My CV",
+            //         style: TextStyle(
+            //           color: Colors.white,
+            //           fontSize: 16,
+            //         ),
+            //       ),
+            //     )),
+            // const SizedBox(
+            //   height: 40,
+            // ),
             const Text(
               "Thankyou for visiting",
               style: TextStyle(
@@ -183,7 +183,7 @@ void htmlOpenTwitter() {
   html.window.open('https://twitter.com/Aniket0fficial', 'twitter');
 }
 
-void htmlOpenResume() {
-  String resume = "https://resumelink.com/";
-  html.window.open(resume, 'resume');
-}
+// void htmlOpenResume() {
+//   String resume = "https://resumelink.com/";
+//   html.window.open(resume, 'resume');
+// }
